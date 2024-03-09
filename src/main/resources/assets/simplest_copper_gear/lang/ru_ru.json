@@ -1,0 +1,15 @@
+{
+  "item.simplest_copper_gear.copper_sword": "Медный меч",
+  "item.simplest_copper_gear.copper_pickaxe": "Медная кирка",
+  "item.simplest_copper_gear.copper_shovel": "Медная лопата",
+  "item.simplest_copper_gear.copper_axe": "Медный топор",
+  "item.simplest_copper_gear.copper_hoe": "Медная мотыга",
+
+  "item.simplest_copper_gear.copper_helmet": "Медный шлем",
+  "item.simplest_copper_gear.copper_chestplate": "Медный нагрудник",
+  "item.simplest_copper_gear.copper_leggings": "Медные поножи",
+  "item.simplest_copper_gear.copper_boots": "Медные ботинки",
+
+
+  "creativetab.simplest_copper_gear_tab": "Simplest Copper Gear"
+}

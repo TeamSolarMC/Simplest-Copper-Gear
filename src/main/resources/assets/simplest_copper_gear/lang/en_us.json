@@ -1,0 +1,15 @@
+{
+  "item.simplest_copper_gear.copper_sword": "Copper Sword",
+  "item.simplest_copper_gear.copper_pickaxe": "Copper Pickaxe",
+  "item.simplest_copper_gear.copper_shovel": "Copper Shovel",
+  "item.simplest_copper_gear.copper_axe": "Copper Axe",
+  "item.simplest_copper_gear.copper_hoe": "Copper Hoe",
+
+  "item.simplest_copper_gear.copper_helmet": "Copper Helmet",
+  "item.simplest_copper_gear.copper_chestplate": "Copper Chestplate",
+  "item.simplest_copper_gear.copper_leggings": "Copper Leggings",
+  "item.simplest_copper_gear.copper_boots": "Copper Boots",
+
+
+  "creativetab.simplest_copper_gear_tab": "Simplest Copper Gear"
+}
