@@ -10,7 +10,7 @@ license="MIT"
 
 modId="simplest_copper_gear"
 
-version="1.0.1"
+version="1.0.2"
 
 displayName="Simplest Copper Gear"
 
@@ -18,7 +18,7 @@ authors="IndEvo Studio" #optional
 
 
 
-description='''A light mod adding Copper Gear.'''
+description='''Copper armor and tools.'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.simplest_copper_gear]] #optional
 # the modid of the dependency
