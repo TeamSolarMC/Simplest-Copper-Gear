@@ -17,8 +17,8 @@ import java.util.function.Supplier;
 public enum ModArmorMaterials implements ArmorMaterial {
     COPPER("copper", 10, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
         p_266655_.put(ArmorItem.Type.BOOTS, 2);
-        p_266655_.put(ArmorItem.Type.LEGGINGS, 4);
-        p_266655_.put(ArmorItem.Type.CHESTPLATE, 3);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 3);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 4);
         p_266655_.put(ArmorItem.Type.HELMET, 2);
     }), 12, SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> Ingredient.of(Items.COPPER_INGOT));
 
