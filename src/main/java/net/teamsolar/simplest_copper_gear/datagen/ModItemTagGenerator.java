@@ -21,10 +21,12 @@ public class ModItemTagGenerator extends ItemTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         this.tag(ItemTags.TRIMMABLE_ARMOR)
-                .add(ModItems.COPPER_HELMET.get(),
+                .add(
+                        ModItems.COPPER_HELMET.get(),
                         ModItems.COPPER_CHESTPLATE.get(),
                         ModItems.COPPER_LEGGINGS.get(),
-                        ModItems.COPPER_BOOTS.get());
+                        ModItems.COPPER_BOOTS.get()
+                );
         this.tag(ItemTags.SWORDS)
                 .add(ModItems.COPPER_SWORD.get());
         this.tag(ItemTags.PICKAXES)
@@ -35,12 +37,6 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .add(ModItems.COPPER_AXE.get());
         this.tag(ItemTags.HOES)
                 .add(ModItems.COPPER_HOE.get());
-
-        this.tag(ItemTags.TRIMMABLE_ARMOR)
-                .add(ModItems.COPPER_HELMET.get())
-                .add(ModItems.COPPER_CHESTPLATE.get())
-                .add(ModItems.COPPER_LEGGINGS.get())
-                .add(ModItems.COPPER_BOOTS.get());
     }
 
     @Override
