@@ -25,11 +25,11 @@ public class ModItems {
             )));
     public static final DeferredItem<AxeItem> COPPER_AXE = ITEMS.register("copper_axe",
             () -> new AxeItem(ModToolTiers.COPPER, new Item.Properties().attributes(
-                    AxeItem.createAttributes(ModToolTiers.COPPER, 6.05F, -3.15F)
+                    AxeItem.createAttributes(ModToolTiers.COPPER, 6.5F, -3.15F)
             )));
     public static final DeferredItem<HoeItem> COPPER_HOE = ITEMS.register("copper_hoe",
             () -> new HoeItem(ModToolTiers.COPPER, new Item.Properties().attributes(
-                    HoeItem.createAttributes(ModToolTiers.COPPER, -2, -1.5F)
+                    HoeItem.createAttributes(ModToolTiers.COPPER, -1.5F, -1.5F)
             )));
 
     // Armor
