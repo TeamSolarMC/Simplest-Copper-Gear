@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "equipment",
   "key": {
     "A": {
       "item": "minecraft:copper_ingot"
@@ -10,9 +10,9 @@
     }
   },
   "pattern": [
-    " AA",
-    " C ",
-    " C "
+    "AA",
+    " C",
+    " C"
   ],
   "result": {
     "count": 1,

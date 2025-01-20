@@ -23,7 +23,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildRecipes(@NotNull RecipeOutput output) {
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_SWORD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.COPPER_SWORD.get())
                 .pattern(" A ")
                 .pattern(" A ")
                 .pattern(" C ")
@@ -35,7 +35,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.STICK).build()))
                 .save(output);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_PICKAXE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.COPPER_PICKAXE.get())
                 .pattern("AAA")
                 .pattern(" C ")
                 .pattern(" C ")
@@ -47,7 +47,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.STICK).build()))
                 .save(output);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_SHOVEL.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.COPPER_SHOVEL.get())
                 .pattern(" A ")
                 .pattern(" C ")
                 .pattern(" C ")
@@ -59,7 +59,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.STICK).build()))
                 .save(output);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_AXE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.COPPER_AXE.get())
                 .pattern("AA ")
                 .pattern("AC ")
                 .pattern(" C ")
@@ -71,10 +71,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.STICK).build()))
                 .save(output);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_HOE.get())
-                .pattern(" AA")
-                .pattern(" C ")
-                .pattern(" C ")
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.COPPER_HOE.get())
+                .pattern("AA")
+                .pattern(" C")
+                .pattern(" C")
                 .define('A', Items.COPPER_INGOT)
                 .define('C', Items.STICK)
                 .unlockedBy("has_copper_ingot", inventoryTrigger(ItemPredicate.Builder.item()
@@ -83,7 +83,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.STICK).build()))
                 .save(output);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_HELMET.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.COPPER_HELMET.get())
                 .pattern("AAA")
                 .pattern("A A")
                 .pattern("   ")
@@ -92,7 +92,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.COPPER_INGOT).build()))
                 .save(output);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_CHESTPLATE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.COPPER_CHESTPLATE.get())
                 .pattern("A A")
                 .pattern("AAA")
                 .pattern("AAA")
@@ -101,7 +101,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.COPPER_INGOT).build()))
                 .save(output);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_LEGGINGS.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.COPPER_LEGGINGS.get())
                 .pattern("AAA")
                 .pattern("A A")
                 .pattern("A A")
@@ -110,7 +110,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.COPPER_INGOT).build()))
                 .save(output);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_BOOTS.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.COPPER_BOOTS.get())
                 .pattern("   ")
                 .pattern("A A")
                 .pattern("A A")
