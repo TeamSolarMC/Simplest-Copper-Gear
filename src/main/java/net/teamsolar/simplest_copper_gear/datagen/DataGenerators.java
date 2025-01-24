@@ -1,6 +1,6 @@
-package net.indevo.simplest_copper_gear.datagen;
+package net.teamsolar.simplest_copper_gear.datagen;
 
-import net.indevo.simplest_copper_gear.SimplestCopperGear;
+import net.teamsolar.simplest_copper_gear.SimplestCopperGear;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;

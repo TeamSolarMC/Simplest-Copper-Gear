@@ -1,6 +1,6 @@
-package net.indevo.simplest_copper_gear.item;
+package net.teamsolar.simplest_copper_gear.item;
 
-import net.indevo.simplest_copper_gear.SimplestCopperGear;
+import net.teamsolar.simplest_copper_gear.SimplestCopperGear;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -18,7 +18,7 @@ public class ModItems {
     public static final RegistryObject<Item> COPPER_SHOVEL = ITEMS.register("copper_shovel",
             () -> new ShovelItem(ModToolTiers.COPPER, 1.5F, -3.0F, new Item.Properties()));
     public static final RegistryObject<Item> COPPER_AXE = ITEMS.register("copper_axe",
-            () -> new AxeItem(ModToolTiers.COPPER, 6.05F, -3.15F, new Item.Properties()));
+            () -> new AxeItem(ModToolTiers.COPPER, 6.5F, -3.15F, new Item.Properties()));
     public static final RegistryObject<Item> COPPER_HOE = ITEMS.register("copper_hoe",
             () -> new HoeItem(ModToolTiers.COPPER, -2, -1.5F, new Item.Properties()));
 

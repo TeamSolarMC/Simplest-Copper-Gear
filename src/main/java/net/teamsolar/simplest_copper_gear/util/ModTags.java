@@ -1,6 +1,6 @@
-package net.indevo.simplest_copper_gear.util;
+package net.teamsolar.simplest_copper_gear.util;
 
-import net.indevo.simplest_copper_gear.SimplestCopperGear;
+import net.teamsolar.simplest_copper_gear.SimplestCopperGear;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;

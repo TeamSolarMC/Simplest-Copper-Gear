@@ -1,7 +1,7 @@
-package net.indevo.simplest_copper_gear.item;
+package net.teamsolar.simplest_copper_gear.item;
 
-import net.indevo.simplest_copper_gear.SimplestCopperGear;
-import net.indevo.simplest_copper_gear.util.ModTags;
+import net.teamsolar.simplest_copper_gear.SimplestCopperGear;
+import net.teamsolar.simplest_copper_gear.util.ModTags;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Tier;

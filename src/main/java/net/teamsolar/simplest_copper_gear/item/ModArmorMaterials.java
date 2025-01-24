@@ -1,6 +1,6 @@
-package net.indevo.simplest_copper_gear.item;
+package net.teamsolar.simplest_copper_gear.item;
 
-import net.indevo.simplest_copper_gear.SimplestCopperGear;
+import net.teamsolar.simplest_copper_gear.SimplestCopperGear;
 import net.minecraft.Util;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
@@ -16,10 +16,10 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
     COPPER("copper", 10, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
-        p_266655_.put(ArmorItem.Type.BOOTS, 2);
-        p_266655_.put(ArmorItem.Type.LEGGINGS, 3);
-        p_266655_.put(ArmorItem.Type.CHESTPLATE, 4);
-        p_266655_.put(ArmorItem.Type.HELMET, 2);
+        p_266655_.put(ArmorItem.Type.BOOTS, 1);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 4);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 5);
+        p_266655_.put(ArmorItem.Type.HELMET, 1);
     }), 12, SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> Ingredient.of(Items.COPPER_INGOT));
 
     public static final StringRepresentable.EnumCodec<ArmorMaterials> CODEC = StringRepresentable.fromEnum(ArmorMaterials::values);

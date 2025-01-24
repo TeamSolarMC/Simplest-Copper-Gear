@@ -1,6 +1,6 @@
-package net.indevo.simplest_copper_gear.datagen;
+package net.teamsolar.simplest_copper_gear.datagen;
 
-import net.indevo.simplest_copper_gear.item.ModItems;
+import net.teamsolar.simplest_copper_gear.item.ModItems;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.FinishedRecipe;
